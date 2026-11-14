@@ -1,5 +1,3 @@
-// Variant 1 - Simpson's numerical integration method
-// Student A implementation
 #include "shared_types.h"
 #include <cmath>
 #include <stdexcept>
