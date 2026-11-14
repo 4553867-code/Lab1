@@ -13,6 +13,6 @@ int main() {
     std::cout << "Integral of x^4 on [0, 1], n=" << data->n << "\n";
     std::cout << "Exact: " << data->exact << "\n";
     std::cout << "Simpson: " << valueA << ", error: " << errorA << ", evaluations: " << evaluationsA << "\n";
-    std::cout << "Trapezoids: " << valueB << ", error: " << errorB << ", evaluations: " << evaluationsB << "\n";
+    std::cout << "Trapezoidal method: " << valueB << ", error: " << errorB << ", evaluations: " << evaluationsB << "\n";
     std::cout << "More accurate: " << (errorA < errorB ? "Simpson" : errorB < errorA ? "Trapezoids" : "equal") << "\n";
 }
