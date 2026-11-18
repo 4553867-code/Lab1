@@ -1,1 +1,0 @@
-Lab 1: Simpson and trapezoidal integration methods. 
